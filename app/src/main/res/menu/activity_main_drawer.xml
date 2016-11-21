@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/select_city"
+            android:icon="@mipmap/checklist_64px"
+            android:title="选择城市" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@mipmap/share_48px"
+                android:title="分享" />
+        </menu>
+    </item>
+
+</menu>
